@@ -1,0 +1,42 @@
+# Juego de Supervivencia AlienAnnihilation
+
+## Descripción
+
+Este es un juego de supervivencia desarrollado en Python utilizando la biblioteca Pygame. El objetivo del jugador es evitar colisiones con enemigos y sobrevivir durante un período de tiempo determinado.
+
+## Características Principales
+
+- **Menú de Inicio:** Permite iniciar el juego o salir de la aplicación.
+- **Menú de Pausa:** Opción para pausar y reanudar la partida.
+- **Menú de Victoria:** Se activa cuando el jugador sobrevive el tiempo establecido.
+- **Menú de Derrota:** Se muestra cuando el jugador pierde todas sus vidas.
+- **Mecánica de Juego:** El jugador puede moverse horizontalmente y evitar colisiones con enemigos.
+- **Sistema de Vidas:** El jugador comienza con 5 vidas y pierde una por cada colisión con un enemigo.
+
+## Instalación
+
+1. Asegúrate de tener Python instalado en tu sistema.
+2. Instala las dependencias necesarias ejecutando:
+
+   pip install pygame
+
+3. Ejecuta el juego con:
+
+   python main.py
+
+## Controles
+
+- **Flecha Izquierda:** Moverse a la izquierda.
+- **Flecha Derecha:** Moverse a la derecha.
+- **Esc:** Pausar  el juego.
+
+## Estructura del Código
+
+- `main.py`: Archivo principal que ejecuta el juego.
+- `menu.py`: Clase que maneja los diferentes menús del juego.
+- `jugador.py`: Contiene la lógica del jugador.
+- `enemigo.py`: Define el comportamiento de los enemigos.
+
+## Autor
+
+Este juego fue desarrollado por John Fernando Montoya Carvajal como un proyecto corto para responder a una prueba técnica presentada por la empresa Kodland 
